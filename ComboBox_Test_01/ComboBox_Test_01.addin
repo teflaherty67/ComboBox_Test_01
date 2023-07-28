@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ComboBox_Test_01</Text>
+    <Description>Some description for ComboBox_Test_01</Description>
+    <Assembly>ComboBox_Test_01.dll</Assembly>
+    <FullClassName>ComboBox_Test_01.Command</FullClassName>
+    <ClientId>572763c3-c29a-4fa2-bb63-acedb180cd66</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ComboBox_Test_01</Name>
+    <Assembly>ComboBox_Test_01.dll</Assembly>
+    <FullClassName>ComboBox_Test_01.App</FullClassName>
+    <ClientId>041fa4a0-2e74-4eff-a6fc-fdb1350d22d3</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
